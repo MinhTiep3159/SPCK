@@ -1,0 +1,107 @@
+#ul1{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+
+}
+.li_in_nav{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 14px 20px;
+}
+#a_in_nav{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+.nav{
+    background-color: rgb(200, 182, 166);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.li_in_nav:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;  
+}
+#a_in_nav:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+#sanpham{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+img{
+    width: 200px;  
+    height: 100%;  
+}
+#pic1{
+    position: relative;
+    
+}
+#pic2{
+    position: relative;
+}
+#pic3{
+    position: relative;
+}
+#pic4{
+    position: relative;
+    
+}
+.w_in_pic1{
+    position: absolute;
+}
+.w_in_pic2{
+    position: absolute;
+}
+
+.w_in_pic3{
+    position: absolute;
+}
+.w_in_pic4{
+    position: absolute;
+}
+.p_in_pic1{
+    position: absolute;
+    margin-top: 45px;
+    color: gray;
+}
+.p_in_pic2{
+    position: absolute;
+    margin-top: 20px;
+    color: gray;
+}
+.p_in_pic3{
+    position: absolute;
+    margin-top: 40px;
+    color: gray;
+}
+.p_in_pic4{
+    position: absolute;
+    margin-top: 23px;
+    color: gray;
+}
+.h2_in_sanpham{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

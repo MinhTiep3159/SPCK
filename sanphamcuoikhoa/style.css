@@ -1,0 +1,198 @@
+
+#ul1{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+
+}
+.li_in_nav{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 14px 20px;
+}
+#a_in_nav{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+.nav{
+    background-color: rgb(200, 182, 166);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    
+}
+*{
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+}
+.li_in_nav:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;  
+}
+#a_in_nav:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+#name{
+    font-size: medium;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    margin-top: 25% ;
+    margin-left: 72.5% ;
+    width: 70%;
+    display:none;
+    border-radius: 40px;
+    box-shadow: 0 0 20px black;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+
+    
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;  
+    box-shadow: 0 0 10px orange;  
+    margin-right: 10px;
+}
+.name1{
+    margin: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: black;
+}
+h1{
+    text-shadow: 5px 5px 10px rgb(160, 98, 98);
+}
+.gioithieu:hover>#name{
+    display: inline-block;
+}
+#sanpham{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+img{
+    width: 200px;  
+    height: 100%;  
+}
+#pic1{
+    position: relative;
+    
+}
+#pic2{
+    position: relative;
+}
+#pic3{
+    position: relative;
+}
+#pic4{
+    position: relative;
+    
+}
+.w_in_pic1{
+    position: absolute;
+}
+.w_in_pic2{
+    position: absolute;
+}
+
+.w_in_pic3{
+    position: absolute;
+}
+.w_in_pic4{
+    position: absolute;
+}
+.p_in_pic1{
+    position: absolute;
+    margin-top: 45px;
+}
+.p_in_pic2{
+    position: absolute;
+    margin-top: 30px;
+}
+.p_in_pic3{
+    position: absolute;
+    margin-top: 45px;
+}
+.p_in_pic4{
+    position: absolute;
+    margin-top: 30px;
+}
+.h2_in_sanpham{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contact{
+    background-color: rgb(200, 182, 166);
+}
+.h2_in_contact{
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: sans-serif ;
+    text-align: center;
+    color: black;
+}
+.p1_in_contact{
+    font-size: 20px;
+    padding-top: 5px ;
+    text-align: center;
+    color: black;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.ul_in_address{
+    list-style: none;
+    color: black;
+    padding-left: 15%;
+}
+.input_in_notebox1{
+    margin-right: 15px;
+    height: 30px;
+    border-radius: 0px;
+    border-color: black;
+}
+.input_in_notebox2{
+    margin-right: -3px;
+    height: 30px;
+    border-radius: 0px;
+    border-color: black;
+}
+.special_notebox{
+    margin-top: 10px;
+    border-radius: 0px;
+}
+.button_in_notebox{
+    color: rgb(222, 214, 214);
+    border-radius: 5px;
+    background: rgb(141, 123, 104);
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 84.6%;
+    border-color: rgb(141, 123, 104) ;
+}
+.note_box{
+    padding-right: 13%;
+}
