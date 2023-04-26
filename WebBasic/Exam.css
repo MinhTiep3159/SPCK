@@ -1,0 +1,71 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#sanpham{
+    height: 60px;
+}
+#sanpham{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+img{
+    width: 200px;  
+    height: 100%;  
+}
+#pic1{
+    position: relative;
+    
+}
+#pic2{
+    position: relative;
+}
+#pic3{
+    position: relative;
+}
+#pic4{
+    position: relative;
+    
+}
+.w_in_pic1{
+    position: absolute;
+}
+.w_in_pic2{
+    position: absolute;
+}
+
+.w_in_pic3{
+    position: absolute;
+}
+.w_in_pic4{
+    position: absolute;   
+}
+.p_in_pic1{
+    position: absolute;
+    margin-top: 65px;
+}
+.p_in_pic2{
+    position: absolute;
+    margin-top: 45px;
+}
+.p1_in_pic3{
+    position: absolute;
+    margin-top: 45px;
+}
+.p2_in_pic3{
+    position: absolute;
+    margin-top: 107px;
+    margin-left: 58px;
+
+}
+.p_in_pic4{
+    position: absolute;
+    margin-top: 65px;
+    text-align: center; 
+}
+
+
+

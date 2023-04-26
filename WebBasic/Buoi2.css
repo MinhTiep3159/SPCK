@@ -1,0 +1,28 @@
+#name{
+    font-size: medium;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    margin: 100px;
+    width: 30%;
+    display:inline-block;
+    border-radius: 40px;
+    box-shadow: 0 0 20px black;
+    
+}
+.image{
+    width: 150px;
+}
+.name1{
+    margin: 0px;
+}
+.name2{
+    background-color: rgb(122, 173, 173);
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+
+}
+h1{
+    text-shadow: 5px 5px 10px rgb(160, 98, 98);
+}
